@@ -1,15 +1,32 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+
+import './App.css';
+import Navbar from './Componenets/Navbar/Navbar';
+import Home from './Componenets/Home/Home';
+import About from './Componenets/About/About';
+import Placement from './Componenets/Placement/Placement';
+import Footer from './Componenets/Footer/Footer';
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
-      <div className='text-3xl font-bold '>Hello Rutuja</div>
-      
+      <Router>
+        <div>
+          <Navbar/>
+          {/* <div className='pt-[95px]'> */}
+          <div className=''>
+
+            <Routes>
+              <Route path='/' element={<Home/>} />
+              <Route path='/about' element={<About/>} />
+              <Route path='/placement' element={<Placement/>} />
+            </Routes>
+          </div>
+          <Footer/>
+        </div>
+      </Router>
     </>
   )
 }
