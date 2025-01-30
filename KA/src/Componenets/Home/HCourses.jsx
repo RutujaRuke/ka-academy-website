@@ -48,9 +48,12 @@ const courses = [
 ];
 
 const HCourses =() => {
+
+
+
   return (
     <>
-    <section className="py-10 px-6">
+    <section className="py-10 px-6 md:p-14">
       <h2 className="text-3xl font-bold mb-6">Explore courses <span className="text-gray-500">(Class 5 - College)</span></h2>
       <div className="grid md:grid-cols-3 gap-6">
         {courses.map((course, index) => (
@@ -85,11 +88,29 @@ const HCourses =() => {
     </section>
     <div className="overflow-hidden">
       <marquee behavior="scroll" direction="left">
-        <img src="https://via.placeholder.com/150" alt="Image 1" className="h-24 mx-4 inline-block" />
-        <img src="https://via.placeholder.com/150" alt="Image 2" className="h-24 mx-4 inline-block" />
-        <img src="https://via.placeholder.com/150" alt="Image 3" className="h-24 mx-4 inline-block" />
-        <img src="https://via.placeholder.com/150" alt="Image 4" className="h-24 mx-4 inline-block" />
-        <img src="https://via.placeholder.com/150" alt="Image 5" className="h-24 mx-4 inline-block" />
+        <img src="/Logo/L1.png" alt="Image 1" className="h-[50px] mx-4 inline-block" />
+        <img src="/Logo/L2.png" alt="Image 2" className="h-[60px] mx-4 inline-block" />
+        <img src="/Logo/L3.png" alt="Image 3" className="h-[60px] mx-4 inline-block" />
+        <img src="/Logo/L4.png" alt="Image 4" className="h-[60px] mx-4 inline-block" />
+        <img src="/Logo/L5.png" alt="Image 5" className="h-[35px] mx-4 inline-block" />
+        <img src="/Logo/L6.png" alt="Image 6" className="h-[60px] mx-4 inline-block" />
+        <img src="/Logo/L7.png" alt="Image 7" className="h-[60px] mx-4 inline-block" />
+        <img src="/Logo/L8.png" alt="Image 3" className="h-[40px] mx-4 inline-block" />
+        <img src="/Logo/L9.png" alt="Image 4" className="h-[40px] mx-4 inline-block" />
+        <img src="/Logo/L10.png" alt="Image 5" className="h-[50px] mx-4 inline-block" />
+        <img src="/Logo/L11.png" alt="Image 1" className="h-[30px] mx-4 inline-block" />
+        <img src="/Logo/L12.png" alt="Image 2" className="h-[60px] mx-4 inline-block" />
+        <img src="/Logo/L13.png" alt="Image 3" className="h-[40px] mx-4 inline-block" />
+        <img src="/Logo/L14.png" alt="Image 4" className="h-[30px] mx-4 inline-block" />
+        <img src="/Logo/L15.png" alt="Image 5" className="h-[30px] mx-4 inline-block" />
+        <img src="/Logo/L16.png" alt="Image 1" className="h-[35px] mx-4 inline-block" />
+        <img src="/Logo/L17.png" alt="Image 2" className="h-[30px] mx-4 inline-block" />
+        <img src="/Logo/L18.png" alt="Image 3" className="h-[40px] mx-4 inline-block" />
+        <img src="/Logo/L19.png" alt="Image 4" className="h-[40px] mx-4 inline-block" />
+        <img src="/Logo/L20.png" alt="Image 5" className="h-[50px] mx-4 inline-block" />
+        <img src="/Logo/L21.png" alt="Image 1" className="h-[40px] mx-4 inline-block" />
+        <img src="/Logo/L22.png" alt="Image 2" className="h-[35px] mx-4 inline-block" />
+        
       </marquee>
     </div>
     </>
